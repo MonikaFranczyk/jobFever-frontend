@@ -52,6 +52,10 @@ const jobType = [
     {value: 'SPECIFIC', label: 'Specific-task contract'},
     {value: 'B2B', label: 'B2B contract'},
     {value: 'INTERNSHIP', label: 'Internship'}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4f23126
 ];
 
 const currencyType = [

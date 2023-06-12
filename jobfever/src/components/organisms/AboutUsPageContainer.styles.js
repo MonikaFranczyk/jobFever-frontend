@@ -1,10 +1,16 @@
 import styled from "styled-components";
 
 export const StyledAboutsUsPageMainContainer = styled('div')`
+<<<<<<< HEAD
   margin-top: 50px !important;
   width: 50%;
   margin: 0 auto;
   
+=======
+  margin-top: 100px !important;
+  width: 50%;
+  margin: 0 auto;
+>>>>>>> 4f23126
 `;
 
 export const StyledAuthorInfoContainer = styled.div`

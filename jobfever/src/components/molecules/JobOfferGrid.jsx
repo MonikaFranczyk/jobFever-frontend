@@ -57,14 +57,24 @@ export default function JobOfferGrid({job, onClick}) {
                                         <img src={pin} alt="my" width={"15px"}/>{job.location}
                                     </Text>
                                     </Grid>
+<<<<<<< HEAD
                                     <Grid item style={{marginTop: '8%',  color: "black", fontSize: '14px'}}>
                                     <Text>
                                         <img src={contract} alt="my" width={"15px"} sx={{display: 'flex'}}/>{job.jobType}
+=======
+                                    <Grid item style={{marginTop: '8%', display: 'flex', color: "black", fontSize: '14px'}}>
+                                    <Text>
+                                        <img src={contract} alt="my" width={"15px"}/>{ job.jobType}
+>>>>>>> 4f23126
                                     </Text>
                                     </Grid>
                                     <Grid item style={{marginTop: '8%', display: 'flex', color: "black", fontSize: '14px'}}>
                                     <Text sx={{marginLeft: '2px'}}>
+<<<<<<< HEAD
                                             <img src={work} alt="my" width={"15px"} sx={{display: 'flex', marginRight: '2px'}}/>{job.workType}
+=======
+                                            <img src={work} alt="my" width={"15px"} sx={{marginRight: '2px'}}/>{job.workType}
+>>>>>>> 4f23126
                                     </Text>
                                 </Grid>
                             </Grid>

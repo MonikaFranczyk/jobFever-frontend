@@ -35,7 +35,11 @@ export default function ChangePasswordModal() {
 
     return (
         <div>
+<<<<<<< HEAD
             <Link sx={{left: '39%', color: 'rgb(255,79,79)'}} onClick={handleClickOpen}>Don't remember password?</Link>
+=======
+            <Link sx={{left: '39%'}} onClick={handleClickOpen}>You dont remember password?</Link>
+>>>>>>> 4f23126
             <Dialog
                 fullWidth
                 maxWidth="sm"
